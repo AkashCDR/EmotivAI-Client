@@ -16,6 +16,9 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "EmotivAI",
   description: "Keep your mental peace with EmotivAI",
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
